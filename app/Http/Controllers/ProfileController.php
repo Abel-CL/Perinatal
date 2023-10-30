@@ -170,16 +170,8 @@ class ProfileController extends Controller
                 "name" => "Afroboliviano"
             ],
             [
-                "id" => 2,
-                "name" => "araona"
-            ],
-            [
                 "id" => 3,
                 "name" => "Aymara"
-            ],
-            [
-                "id" => 4,
-                "name" => "Ayoreo"
             ],
             [
                 "id" => 40,

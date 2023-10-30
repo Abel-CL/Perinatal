@@ -175,11 +175,11 @@ onMounted(() => {
                         <h2>{{time=='AM'?'Buenos dias':'Buenas tardes'}}<span class="m-3">{{ user.name }}</span></h2>
                     </div>
                 </div>
-                <div class="col-md-6 position-blk">
+                <!-- <div class="col-md-6 position-blk">
                     <div class="morning-img">
                         <img src="assets/img/morning-img-01.png" alt="">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div v-if="user.idrol<4" class="row">

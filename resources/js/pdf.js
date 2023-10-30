@@ -393,8 +393,8 @@ var diabetesf=antecedentes.diabetesf; //diabetesf
         }
         if(antecedentes.finembarazoanteriorr!=null){
             var finembarazoanteriorr=antecedentes.finembarazoanteriorr; //finembarazoanteriorr
-            doc.setFontSize(14); 
-            doc.text(finembarazoanteriorr.toString(),16.55,4.21); 
+            doc.setFontSize(13); 
+            doc.text(finembarazoanteriorr.toString(),16.65,4.25); 
             doc.setFontSize(9);
         } 
 
@@ -462,13 +462,13 @@ var diabetesf=antecedentes.diabetesf; //diabetesf
 
         if(gestacion.fppdatee!=null){
             var fppdatee=gestacion.fppdatee; //fppdate
-            doc.setFontSize(14); 
+            doc.setFontSize(13); 
             doc.text(fppdatee.toString(),5.76,6.6); 
             doc.setFontSize(9);
         } 
         if(gestacion.fumdatee!=null){
             var fumdatee=gestacion.fumdatee; //fumdate
-            doc.setFontSize(14); 
+            doc.setFontSize(13); 
             doc.text(fumdatee.toString(),5.76,7.2); 
             doc.setFontSize(9);
         } 
@@ -1147,13 +1147,15 @@ var diabetesf=antecedentes.diabetesf; //diabetesf
              doc.text(element.peso.toString(),3.8,posy);
             }
             if(element.imc!=null){
-                doc.text(element.imc.toString(),4.8,posy);
+                doc.setFontSize(7.5);
+                doc.text(element.imc.toString(),4.64,posy);
+                doc.setFontSize(9);
             }
             if(element.pa!=null){
                 doc.text(element.pa.toString(),5.4,posy);
             }
             if(element.edadgest!=null){
-                doc.text(element.edadgest.toString(),6.45,posy);
+                doc.text(element.edadgest.toString(),6.39,posy);
             }
             if(element.alturauterina!=null){
                 doc.text(element.alturauterina.toString(),7.25,posy);
@@ -1192,7 +1194,7 @@ var diabetesf=antecedentes.diabetesf; //diabetesf
                 doc.setFontSize(9);
             }
             if(element.name!=null){ 
-                doc.setFontSize(5);
+                doc.setFontSize(7);
                 doc.text("Dr. "+element.name.toString().split(" ")[0],17.7,posy-0.05);  
             }
             if(element.proximacitaa!=null){ 
