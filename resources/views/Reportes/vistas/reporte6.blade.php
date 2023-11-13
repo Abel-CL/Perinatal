@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Reporte 6</title>
+    <title>Pacientes con VIH</title>
 </head>
 <style>@page {
     margin: 0cm 0cm;

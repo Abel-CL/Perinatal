@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Reporte 1</title>
+    <title>Pacientes registrados</title>
 </head>
 <style>@page {
     margin: 0cm 0cm;
@@ -83,7 +83,7 @@ body {
     <main>
     <div class="body_wrapper">
         
-        <h1 style="color: #0c49a5;text-align: center;">Reporte de registros de Pacientes</h1>
+        <h1 style="color: #0c49a5;text-align: center;">Reporte de pacientes registrados</h1>
        
  
         <table class="table">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Reporte 7</title>
+    <title>Trabajo de parto</title>
 </head>
 <style>@page {
     margin: 0cm 0cm;

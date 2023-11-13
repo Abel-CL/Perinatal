@@ -214,13 +214,13 @@ class DatabaseSeeder extends Seeder
         DB::table('vistas')->insert(['idv'=>7,'nomvista'=>'Control Prenatal Tratamiento','nomvue'=>'ControlPrenatalTrat','ruta'=>'ControlPrenatalTrat']);
         DB::table('vistas')->insert(['idv'=>8,'nomvista'=>'Carnet Perinatal','nomvue'=>'CarnetPerinatal','ruta'=>'CarnetPerinatal']);
         DB::table('vistas')->insert(['idv'=>9,'nomvista'=>'Carnet Perinatal','nomvue'=>'CarnetPerinatalList','ruta'=>'CarnetperinatalLista']);
-        DB::table('vistas')->insert(['idv'=>10,'nomvista'=>'Reporte1','nomvue'=>'Reporte1','ruta'=>'Reporte1']);
+        DB::table('vistas')->insert(['idv'=>10,'nomvista'=>'Pacientes registrados','nomvue'=>'Reporte1','ruta'=>'Reporte1']);
         DB::table('vistas')->insert(['idv'=>11,'nomvista'=>'Reporte2','nomvue'=>'Reporte2','ruta'=>'Reporte2']);
-        DB::table('vistas')->insert(['idv'=>12,'nomvista'=>'Reporte3','nomvue'=>'Reporte3','ruta'=>'Reporte3']);
-        DB::table('vistas')->insert(['idv'=>13,'nomvista'=>'Reporte4','nomvue'=>'Reporte4','ruta'=>'Reporte4']);
-        DB::table('vistas')->insert(['idv'=>14,'nomvista'=>'Reporte5','nomvue'=>'Reporte5','ruta'=>'Reporte5']);
-        DB::table('vistas')->insert(['idv'=>15,'nomvista'=>'Reporte6','nomvue'=>'Reporte6','ruta'=>'Reporte6']);
-        DB::table('vistas')->insert(['idv'=>16,'nomvista'=>'Reporte7','nomvue'=>'Reporte7','ruta'=>'Reporte7']);
+        DB::table('vistas')->insert(['idv'=>12,'nomvista'=>'Embarazos planeados','nomvue'=>'Reporte3','ruta'=>'Reporte3']);
+        DB::table('vistas')->insert(['idv'=>13,'nomvista'=>'Gestantes con riesgo','nomvue'=>'Reporte4','ruta'=>'Reporte4']);
+        DB::table('vistas')->insert(['idv'=>14,'nomvista'=>'Fracaso anticonceptivo','nomvue'=>'Reporte5','ruta'=>'Reporte5']);
+        DB::table('vistas')->insert(['idv'=>15,'nomvista'=>'Pacientes con VIH','nomvue'=>'Reporte6','ruta'=>'Reporte6']);
+        DB::table('vistas')->insert(['idv'=>16,'nomvista'=>'Trabajo de parto','nomvue'=>'Reporte7','ruta'=>'Reporte7']);
 
         //ADMINISTRADOR
         DB::table('menu_vistas')->insert(['idmenu'=>1,'idv'=>1]);
@@ -236,7 +236,7 @@ class DatabaseSeeder extends Seeder
         DB::table('menu_vistas')->insert(['idmenu'=>5,'idv'=>9]); 
 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>10]); 
-        DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>11]); 
+        // DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>11]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>12]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>13]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>14]); 
@@ -256,7 +256,7 @@ class DatabaseSeeder extends Seeder
         DB::table('menu_vistas')->insert(['idmenu'=>14,'idv'=>9]);
 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>10]); 
-        DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>11]); 
+        // DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>11]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>12]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>13]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>14]); 

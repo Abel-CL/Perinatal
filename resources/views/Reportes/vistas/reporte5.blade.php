@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Reporte 5</title>
+    <title>Fracaso anticonceptivo</title>
 </head>
 <style>@page {
     margin: 0cm 0cm;

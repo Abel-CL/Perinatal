@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Reporte 3</title>
+    <title>Embarazos planeados</title>
 </head>
 <style>@page {
     margin: 0cm 0cm;
