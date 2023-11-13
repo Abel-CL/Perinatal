@@ -54,10 +54,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/Antecedentes', [ProfileController::class, 'listarPacienteAntecedente'])->name('Antecedentes'); 
 
     Route::get('/Reporte1', [ProfileController::class, 'rep1'])->name('Reporte1'); 
-    Route::get('/Reporte2', [ProfileController::class, 'rep2'])->name('Reporte2'); 
+    // Route::get('/Reporte2', [ProfileController::class, 'rep2'])->name('Reporte2'); 
     Route::get('/Reporte3', [ProfileController::class, 'rep3'])->name('Reporte3'); 
     Route::get('/Reporte4', [ProfileController::class, 'rep4'])->name('Reporte4'); 
-    Route::get('/Reporte5', [ProfileController::class, 'rep5'])->name('Reporte5'); 
+    // Route::get('/Reporte5', [ProfileController::class, 'rep5'])->name('Reporte5'); 
     Route::get('/Reporte6', [ProfileController::class, 'rep6'])->name('Reporte6'); 
     Route::get('/Reporte7', [ProfileController::class, 'rep7'])->name('Reporte7'); 
 

@@ -239,7 +239,7 @@ class DatabaseSeeder extends Seeder
         // DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>11]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>12]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>13]); 
-        DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>14]); 
+        // DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>14]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>15]); 
         DB::table('menu_vistas')->insert(['idmenu'=>6,'idv'=>16]); 
 
@@ -259,7 +259,7 @@ class DatabaseSeeder extends Seeder
         // DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>11]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>12]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>13]); 
-        DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>14]); 
+        // DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>14]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>15]); 
         DB::table('menu_vistas')->insert(['idmenu'=>15,'idv'=>16]);       
  
